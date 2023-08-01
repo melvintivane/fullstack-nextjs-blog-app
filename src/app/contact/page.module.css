@@ -1,3 +1,55 @@
 .container {
-    
+  width: 1024px;
+}
+
+.title {
+  font-size: 42px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.imgContainer {
+  flex: 1;
+  height: 400px;
+  position: relative;
+}
+
+.image {
+  object-fit: contain;
+  /* animation: move 3s infinite ease alternate; */
+}
+
+@keyframes move {
+  from {
+    transform: translateY(-15px);
+  }
+  to {
+    transform: translateY(0px) scale(1.03);
+  }
+}
+
+.form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input,
+.textArea {
+  padding: 15px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #bbb;
+  border: 2px solid #bbb;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
 }

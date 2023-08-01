@@ -1,5 +1,6 @@
 .container {
     height: 100px;
+    width: 1024px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,9 +18,9 @@
 }
 
 .logout {
-    color: white;
+    color: whitesmoke;
     border: none;
-    padding: 7px 10px;
+    padding: 12px 17px;
     background-color: #53c28b;
     border-radius: 3px;
     cursor: pointer;
