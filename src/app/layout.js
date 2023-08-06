@@ -1,9 +1,12 @@
 import Footer from '@/components/footer/Footer';
 import './globals.css';
-import { Inter } from 'next/font/google';
+import { Poppins } from 'next/font/google';
 import Navbar from '@/components/navbar/Navbar';
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Poppins({ 
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700', '800', '900'] 
+})
 
 export const metadata = {
   title: 'Create Next App',
