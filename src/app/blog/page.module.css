@@ -1,23 +1,21 @@
 .container {
     width: 1024px;
     display: flex;
-    align-items: center;
     gap: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
 }
 
 .image{
     object-fit: cover;
 }
 
-.content {
-}
-
 .title {
+    font-size: 25px;
     margin-bottom: 10px;
 }
 
 .desc {
-    font-size: 18px;
+    font-size: 14px;
+    text-align: justify;
     color: #999;
 }

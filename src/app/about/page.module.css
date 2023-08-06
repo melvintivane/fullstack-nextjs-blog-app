@@ -1,4 +1,6 @@
 .container {
+  width: 1024px;
+  margin-top: 30px;
 }
 
 .imgContainer {
@@ -23,7 +25,7 @@
 
 .textContainer {
   display: flex;
-  gap: 100px;
+  gap: 50px;
 }
 
 .item {
@@ -35,7 +37,7 @@
 }
 
 .desc {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 300;
   text-align: justify;
 }
