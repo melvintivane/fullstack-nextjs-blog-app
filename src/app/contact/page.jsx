@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./page.module.css";
 import Image from "next/image";
-import Button from "@/components/Button/Button";
+import Button from "@/components/button/Button";
 
 export const metadata = {
   title: "Melvin Tivane Contact Information",
