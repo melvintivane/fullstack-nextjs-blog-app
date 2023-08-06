@@ -1,8 +1,11 @@
 .container {
+  width: 1024px;
+  margin-top: 30px;
 }
 
 .top {
   display: flex;
+  gap: 25px;
 }
 
 .info {
@@ -13,11 +16,12 @@
 }
 
 .title{
-  font-size: 40px;
+  font-size: 25px;
 }
 
 .desc{
-  font-size: 18px;
+  font-size: 14px;
+  text-align: justify;
   font-weight: 300;
 }
 
@@ -32,9 +36,13 @@
   border-radius: 50%;
 }
 
+.username {
+  font-size: 14px;
+}
+
 .imageContainer {
   flex: 1;
-  height: 300px;
+  height: 250px;
   position: relative;
 }
 
@@ -44,7 +52,7 @@
 
 .content {
   margin-top: 50px;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 300;
   color: #999;
   text-align: justify;
