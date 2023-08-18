@@ -133,7 +133,7 @@ const Blog = () => {
         </div>
       </Link>
     </div>
-  )
-}
+  );
+};
 
-export default Blog
+export default Blog;
