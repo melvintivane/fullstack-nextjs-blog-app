@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.12",
     "mongoose": "6.12.0",
