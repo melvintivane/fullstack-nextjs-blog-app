@@ -1,7 +1,12 @@
-import React from 'react';
+import React from "react";
 import styles from "./page.module.css";
-import Image from 'next/image';
-import Button from '@/components/button/Button';
+import Image from "next/image";
+import Button from "@/components/button/Button";
+
+export const metadata = {
+  title: "About Page",
+  description: "This is the About Page",
+};
 
 const About = () => {
   return (
@@ -57,7 +62,7 @@ const About = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
